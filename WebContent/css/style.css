@@ -80,7 +80,12 @@ img {
 
 .mb-50 {
   margin-bottom: 50px !important; }
-
+  
+.career-mail .mb-50 {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  margin-left: 20px;}
+  
 .mb-70 {
   margin-bottom: 70px !important; }
 
@@ -796,11 +801,20 @@ img {
           padding-left: 15px;
           padding-right: 15px; } }
 
+.career-mail{
+	margin-left: 100px !important;
+	background-color: #003679;
+}
+
+.contact-area {
+	margin-bottom: 120px;
+}
+
 /* :: 8.0 CTA Area CSS */
 .cta-area {
   position: relative;
   z-index: 1;
-  height: 550px; }
+  height: 826px; }
   .cta-area .cta-thumbnail {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
